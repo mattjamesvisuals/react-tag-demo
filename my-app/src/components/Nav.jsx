@@ -6,6 +6,7 @@ class Nav extends React.Component {
       return (
         <div className="nav">
           <div>Left Rail</div> 
+          {this.props.children}
         </div>
       );
     }
